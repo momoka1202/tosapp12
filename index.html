@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ボタンアプリ</title>
+</head>
+<body>
+  <h1>ボタンを押してね</h1>
+
+  <button onclick="pushButton()">押す</button>
+
+  <p id="message"></p>
+
+  <script>
+    function pushButton() {
+      document.getElementById("message").textContent =
+        "ボタンが押されました！";
+    }
+  </script>
+</body>
+</html>
